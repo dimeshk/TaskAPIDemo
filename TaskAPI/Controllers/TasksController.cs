@@ -22,7 +22,7 @@ namespace TaskAPI.Controllers
         [HttpPost]
         public IActionResult NewTask()
         {
-            return Ok();
+            return Ok(); 
         }
 
         [HttpPut]
